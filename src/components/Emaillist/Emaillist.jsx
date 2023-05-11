@@ -10,7 +10,7 @@ export const Emaillist = () => {
         Sign  up and we'll send the best deals to you
         </span>
         <div className="mailinputContainer">
-            <input type="text" placeholder='"your Email'/>
+            <input type="text" placeholder='your Email'/>
              <button>Subscribe</button>
         </div>
     </div>
