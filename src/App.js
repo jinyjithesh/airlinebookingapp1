@@ -1,15 +1,19 @@
+import { Routes, Route } from "react-router-dom"
+import { Flight } from "./pages/flights/Flight"
+import { Home } from "./pages/home/Home"
+import { List } from "./pages/list/List"
 
-import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      
-     
-      </header>
+      <Routes>
+        <Route path="/" element={ <Home/> } />
+        <Route path="/Flights" element={  <List/> } />
+        <Route path="/Flights/:id" element={ <Flight/> } />
+      </Routes>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

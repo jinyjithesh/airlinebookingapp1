@@ -1,0 +1,40 @@
+.depContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 12px;
+    border: 1px solid #6fcbcf;
+    padding: 10px;
+    border-radius: 5px;
+}
+.Searchbar{
+   
+   
+    background-color: black;
+}
+.hr{
+    background-color: black;
+}
+.serInput{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: aqua;
+}
+.serInputContiner{
+      display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+   
+    font-size: 12px;
+    border:  1px solid #6fcbcf;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: aqua;
+}
