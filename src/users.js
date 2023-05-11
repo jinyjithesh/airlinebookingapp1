@@ -18,7 +18,7 @@ export const Users =[
 "adult":2,
 "children":0,
 "date":"jun 10",
-"amount":"INR 14000",
+"amount":"INR 24000",
 "flightname":"AirIndia"
 },
 {"id":3,
@@ -26,7 +26,7 @@ export const Users =[
 "startplace":"cok",
 
 "checkintime":"5.pm",
-"checkouttime":"10pm",
+"checkouttime":"8pm",
 "adult":1,
 "children":0,
 "date":"jun 10",
@@ -37,23 +37,22 @@ export const Users =[
 "destination":"RUH",
 "startplace":"cok",
 "checkintime":"5.pm",
-"checkouttime":"10pm",
+"checkouttime":"6pm",
 "adult":1,
 "children":0,
 "date":"jun 10",
-"amount":"INR 35000",
+"amount":"INR 45000",
 "flightname":"indigo"
 },
 {"id":5,
 "destination":"RUH",
 "startplace":"cok",
-
-"checkintime":"5.pm",
+"checkintime":"9.pm",
 "checkouttime":"10pm",
 "adult":1,
 "children":0,
 "date":"jun 10",
-"amount":"INR 35000",
+"amount":"INR 65000",
 "flightname":"indigo"
 },
 ]

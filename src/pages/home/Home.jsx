@@ -1,4 +1,6 @@
 import React from 'react'
+import { Emaillist } from '../../components/Emaillist/Emaillist'
+
 
 import { Featured } from '../../components/featured/Featured'
 import { Footer } from '../../components/Footer/Footer'
@@ -13,6 +15,7 @@ export const Home = () => {
         <Header/>
         <div className='homeContainer'>
 <Featured/>
+<Emaillist/>
 <Footer/>
         </div>
     </div>

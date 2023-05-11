@@ -6,6 +6,7 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons"
 import "./searchItem.css"
 export const SearchItem = () => {
    
+    
   const location = useLocation();
   console.log(location,"loction");
   const[destination,setDestination]=useState(location.state.destination);
@@ -52,7 +53,7 @@ export const SearchItem = () => {
        <span>Direct</span>
     </div>
     <div>
-        <h1 className="SearchArraveltime">8.10pm</h1>
+        <h1 className="SearchArraveltime">{user.checkouttime}</h1>
         <p className="SearchArravelDateplace">{user.destination}.jun 18</p>
         
        
